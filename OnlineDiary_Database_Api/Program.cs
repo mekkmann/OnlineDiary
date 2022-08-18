@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<OnlineDiaryContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("OnlineDiaryContext")));
 
 // Add services to the container.
 
