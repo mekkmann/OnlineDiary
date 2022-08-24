@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import Splash from './components/splash'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+test('renders title', () => {
+  render(<Splash />);
+  const linkElement = screen.getByText('Why keep a diary?');
   expect(linkElement).toBeInTheDocument();
 });
