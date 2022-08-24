@@ -259,3 +259,4 @@ C:\Users\pontu\GitHubRepos\OnlineDiary\OnlineDiary_Database_Api\obj\Debug\net6.0
 C:\Users\pontu\GitHubRepos\OnlineDiary\OnlineDiary_Database_Api\obj\Debug\net6.0\OnlineDiary_Database_Api.pdb
 C:\Users\pontu\GitHubRepos\OnlineDiary\OnlineDiary_Database_Api\obj\Debug\net6.0\OnlineDiary_Database_Api.genruntimeconfig.cache
 C:\Users\pontu\GitHubRepos\OnlineDiary\OnlineDiary_Database_Api\obj\Debug\net6.0\ref\OnlineDiary_Database_Api.dll
+C:\Users\pontu\GitHubRepos\OnlineDiary\OnlineDiary_Database_Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

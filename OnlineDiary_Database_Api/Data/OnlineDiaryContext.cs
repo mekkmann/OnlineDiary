@@ -12,6 +12,7 @@ public class OnlineDiaryContext : DbContext
     {
     }
 
-    public DbSet<Book> Book { get; set; } = default!;
+    public DbSet<Book> Books { get; set; } = default!;
+    public DbSet<BookEntry> BookEntries { get; set; } = default!;
 
 }
